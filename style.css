@@ -14,23 +14,24 @@ h1{
 }
 a{
     color: white;
-    
+    text-decoration: none;
 }
 a:hover{
     background-color: white;
     color: darkred;
+    text-decoration: none;
 }
 .felsorolas{
-    margin-left: 20%; 
-    margin-right: 10%;
+    text-align: center;
 }
 .containers{
     width: 95%;
     display: grid;
     margin: 0 auto;
     grid-template-columns: 49% 2% 49%;
-    grid-template-rows: 900px;
+    grid-template-rows: 100%;
     margin-top: 2%;
+    margin-bottom: 10px;
 
 }
 .grid_1{
