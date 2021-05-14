@@ -1,6 +1,8 @@
 body{
     background-image: url(img/hatter.png);
     background-repeat: repeat;
+    background-size: 250px;
+    
 }
 .fo_div{
     background-color: pink;
