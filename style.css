@@ -1,0 +1,134 @@
+body{
+    background-image: url(img/hatter.png);
+    background-repeat: repeat;
+}
+.fo_div{
+    background-color: pink;
+    margin: 0 auto 0 auto;
+    width: 60%;
+    border: 3px dotted black;
+    margin-bottom: 20px;
+}
+h1{
+    border-bottom: red solid 1px;
+}
+a{
+    color: white;
+    
+}
+a:hover{
+    background-color: white;
+    color: darkred;
+}
+.felsorolas{
+    margin-left: 20%; 
+    margin-right: 10%;
+}
+.containers{
+    width: 95%;
+    display: grid;
+    margin: 0 auto;
+    grid-template-columns: 49% 2% 49%;
+    grid-template-rows: 900px;
+    margin-top: 2%;
+
+}
+.grid_1{
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    background-color: darkgrey;
+}
+.grid_2{
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 1;
+    background-color: darkgray;
+}
+h2{
+    margin-left: 10px;
+     margin-top: 10px;
+     margin-right: 35%;
+    background-color: pink;
+    border:  2px outset;
+    box-shadow: gray 5px 5px 5px 
+    ;
+}
+.lil_bub{
+    width: 100px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: -10px;
+    float: left;
+    border: inset 3px ;
+}
+p{
+    margin-left: 10px;
+}
+.fo_div2{
+    background-color: pink;
+    margin: 0 auto 0 auto;
+    width: 60%;
+    border: 3px dotted black;
+    margin-bottom: 50px;
+}
+
+/*  https://www.w3schools.com/howto/tryit.asp?filename=tryhow_js_tab_img_gallery  */
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    font-family: Arial;
+  }
+  
+  /* The grid: Four equal columns that floats next to each other */
+  .column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+  }
+  
+  /* Style the images inside the grid */
+  .column img {
+    opacity: 0.8; 
+    cursor: pointer; 
+  }
+  
+  .column img:hover {
+    opacity: 1;
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* The expanding image container */
+  .container {
+    position: relative;
+    display: none;
+  }
+  
+  /* Expanding image text */
+  #imgtext {
+    position: absolute;
+    bottom: 15px;
+    left: 15px;
+    color: white;
+    font-size: 20px;
+  }
+  
+  /* Closable button inside the expanded image */
+  .closebtn {
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    color: white;
+    font-size: 35px;
+    cursor: pointer;
